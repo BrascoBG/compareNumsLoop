@@ -1,5 +1,5 @@
 function test(args){
-  let max = 0;
+  let max = Number.NEGATIVE_INFINITY;
   for(i = 1; i < args.length; i++){
     let current = Number(args[i]);
     if(current > max){
